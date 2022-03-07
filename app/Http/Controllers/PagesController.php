@@ -8,12 +8,12 @@ class PagesController extends Controller
 {
     //
     public function index(){
-        $title = 'this is an INDEX page...';
+        $title = 'Welcome to Lapi.local main page...';
         return view('/pages/index')->with('title', $title);
     }
 
     public function about(){
-        $title = 'about us...';
+        $title = 'About page...';
         return view('/pages/about')->with('title', $title);;
     }
 
